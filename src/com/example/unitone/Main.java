@@ -7,10 +7,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+    int maxHeight = 150;
+    int minHeight = 100;
 
-        Building c = new Building();
-        System.out.println(c.getEndResult());
+    Building home = new Building();
 
     }
 }

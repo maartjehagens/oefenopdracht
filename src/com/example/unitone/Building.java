@@ -9,6 +9,7 @@ public class Building {
     public void setEndResult(int endResult){
         this.endResult = endResult;
     }
+
 }
 
 
