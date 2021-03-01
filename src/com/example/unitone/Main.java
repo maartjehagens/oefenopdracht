@@ -7,10 +7,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-    Building home = new Building();
-
-    home.minHeight = 100;
-    home.maxHeight = 150;
+    Building home = new Building("Maartje", 100, 150); //constructor
 
     System.out.println("Maximal Height:" + home.maxHeight );
 
