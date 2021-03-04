@@ -1,4 +1,5 @@
 package com.example.unitone;
+import java.util.Scanner;
 
 import java.util.Scanner;
 
@@ -7,9 +8,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-    Building home = new Building("Maartje", 100, 150); //constructor
+        Scanner scanner = new Scanner(System.in);
+        Building home = new Building("Maartje", 100, 150); //constructor
 
-    System.out.println("Maximal Height:" + home.maxHeight );
-
+        if (home.getName() == "Pand Ede");
+        if (home.getMaxHeight() == 100);
+        if (home.getMinHeight() == 150);
+        System.out.println("Pand Ede klopt");
     }
 }
