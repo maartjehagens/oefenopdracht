@@ -8,7 +8,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         Building home = new Building("Maartje", 100, 150); //constructor
 
         if (home.getName() == "Pand Ede");
