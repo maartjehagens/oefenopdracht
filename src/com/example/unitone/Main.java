@@ -1,18 +1,20 @@
 package com.example.unitone;
 import java.util.Scanner;
 
-import java.util.Scanner;
-
-public class Main {
-    public Main() {
-    }
+public class Main {                                                                    //Class
 
     public static void main(String[] args) {
-        Building home = new Building("Maartje", 100, 150); //constructor
 
-        if (home.getName() == "Pand Ede");
-        if (home.getMaxHeight() == 100);
-        if (home.getMinHeight() == 150);
-        System.out.println("Pand Ede klopt");
+        //Main Method
+        Building home = new Building("Maartje", 100, 150); //constructor
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter username");
+
+        if (home.getMaxHeight() >= 300) {
+            System.out.println("To Big!");
+        }
+        else {
+            System.out.println("Not To big!");
+        }
     }
 }
