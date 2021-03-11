@@ -16,7 +16,7 @@ public class Main {                                                             
         int num = scan.nextInt();
 
         if (home.getMaxHeight()== 900 ){
-            System.out.println("Hello");
+            System.out.println("Yesss");
         }
         else{
             System.out.println("Nooo");

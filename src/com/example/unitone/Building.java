@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Building {
     private String name;
+    private int maxHeight;
+    private int minHeight;
 
     public int getMaxHeight() {
         return maxHeight;
@@ -19,9 +21,6 @@ public class Building {
     public void setMinHeight(int minHeight) {
         this.minHeight = minHeight;
     }
-
-    private int maxHeight;
-    private int minHeight;
 
     public String getName(){
         return name;
