@@ -28,6 +28,14 @@ public class Building {
     public void setName(String newName){
         this.name = newName;
     }
-    }
 
+    public void printScore(){
+        if (maxHeight == 100) {
+            System.out.println("Enter home size");
+        }
+        else if (maxHeight == 300){
+            System.out.println("Enter home size!");
+        }
+    }
+}
 

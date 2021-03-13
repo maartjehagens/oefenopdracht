@@ -11,15 +11,11 @@ public class Main {                                                             
         home.setMaxHeight(700);
         home.setMinHeight(900);
 
-        Scanner scan = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter home size");
-        int num = scan.nextInt();
 
-        if (home.getMaxHeight()== 900 ){
-            System.out.println("Yesss");
-        }
-        else{
-            System.out.println("Nooo");
-        }
+        home.setMaxHeight(input.nextInt());
+        home.printScore();
+
     }
 }
