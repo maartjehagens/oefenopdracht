@@ -1,7 +1,7 @@
 package com.example.unitone;
 import java.util.Scanner;
 
-public class Building {
+public class Rijwoning {
     private String name;
     private int maxHeight;
     private int minHeight;
@@ -29,7 +29,7 @@ public class Building {
         this.name = newName;
     }
 
-    public void printScore(){
+    public void rijHome(){
         if (maxHeight <= 500) {
             System.out.println("Yes!");
         }
