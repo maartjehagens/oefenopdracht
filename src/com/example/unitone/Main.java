@@ -13,7 +13,6 @@ public class Main {                                                             
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter home size");
-
         home.setMaxHeight(input.nextInt());
         home.printScore();
 

@@ -30,11 +30,11 @@ public class Building {
     }
 
     public void printScore(){
-        if (maxHeight == 100) {
-            System.out.println("Enter home size");
+        if (maxHeight <= 500) {
+            System.out.println("Yes!");
         }
-        else if (maxHeight == 300){
-            System.out.println("Enter home size!");
+        else if (maxHeight >= 501){
+            System.out.println("Noooo");
         }
     }
 }
