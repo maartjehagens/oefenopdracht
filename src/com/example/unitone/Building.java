@@ -1,5 +1,4 @@
 package com.example.unitone;
-
 import java.util.Scanner;
 
 public class Building {
@@ -7,14 +6,36 @@ public class Building {
     private int maxHeight;
     private int minHeight;
 
-    Building(String name, int maxHeight, int minHeight){
-        this.name = name;
+    public int getMaxHeight() {
+        return maxHeight;
+    }
+
+    public void setMaxHeight(int maxHeight) {
         this.maxHeight = maxHeight;
+    }
+
+    public int getMinHeight() {
+        return minHeight;
+    }
+
+    public void setMinHeight(int minHeight) {
         this.minHeight = minHeight;
     }
-    public String getName() {return this.name;}
-    public int getMaxHeight() {return this.maxHeight;}
-    public int getMinHeight() {return this.minHeight;}
-}
 
+    public String getName(){
+        return name;
+    }
+    public void setName(String newName){
+        this.name = newName;
+    }
+
+    public void printScore(){
+        if (maxHeight == 100) {
+            System.out.println("Enter home size");
+        }
+        else if (maxHeight == 300){
+            System.out.println("Enter home size!");
+        }
+    }
+}
 
